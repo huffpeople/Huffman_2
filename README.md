@@ -2,6 +2,12 @@
 Huffman codes
 
 ### Para executar o programa no linux:
-Abra o terminal e entre no diretório em que salvou o arquivo
-Digite para compilar: make compile_huff
-Digite para executar : ./huffman
+1. Abra o terminal e entre no diretório em que salvou o arquivo
+2. Digite para compilar:
+```
+make compile_huff
+```
+3. Digite para executar:
+```
+./huffman
+```
