@@ -5,6 +5,7 @@ HEAP = heap.h heap.c
 HEADER = header.h
 HASH = hash.h hash.c
 MAIN = huff.c
+TEST = Ctest.c
 
 compile_huff:
 	gcc $(HEADER) $(HEAP) $(TREE) $(HASH) $(COMPACT) $(DESCOMPACT) $(MAIN) -o huffman -w
