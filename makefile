@@ -8,3 +8,6 @@ MAIN = huff.c
 
 compile_huff:
 	gcc $(HEADER) $(HEAP) $(TREE) $(HASH) $(COMPACT) $(DESCOMPACT) $(MAIN) -o huffman -w
+	
+compile_cunit:
+	gcc $(TEST) $(TREE) $(HEAP) $(HASH) -o tests -lcunit -w
